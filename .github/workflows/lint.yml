@@ -2,6 +2,7 @@ name: Lint y Format
 on:
   workflow_dispatch:
   workflow_call: 
+  
 jobs:
   eslint_prettier:
     name: ESLint + Prettier
